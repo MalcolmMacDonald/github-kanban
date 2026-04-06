@@ -1,0 +1,3 @@
+import type { GithubKanbanProps } from './types.js';
+export declare function GithubKanban({ repo, token: tokenProp, apiBaseUrl, columns, hiddenLabels, defaultLabels, branchIssuePattern, tokenCommentPattern, showWorkflowRuns, showCreateForm, showTokenInput, pollIntervalMs, theme: themeProp, onBack, promoteWorkflow, }: GithubKanbanProps): import("react/jsx-runtime").JSX.Element;
+//# sourceMappingURL=GithubKanban.d.ts.map

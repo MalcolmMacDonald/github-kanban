@@ -1,5 +1,5 @@
 {
-  "name": "@malcolmmacdonald/github-kanban",
+  "name": "@malcolm/github-kanban",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -13,10 +13,7 @@
     }
   },
   "scripts": {
-    "build": "bun run build:esm && bun run build:cjs && bun run build:types",
-    "build:esm": "bun build src/index.ts --outdir dist --format esm --external react --external react-dom",
-    "build:cjs": "bun build src/index.ts --outfile dist/index.cjs --format cjs --external react --external react-dom",
-    "build:types": "tsc -p tsconfig.build.json"
+    "build": "tsup"
   },
   "peerDependencies": {
     "react": "^18 || ^19",
@@ -24,6 +21,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
+    "tsup": "^8.0.0",
     "typescript": "~5.8.3"
   }
 }

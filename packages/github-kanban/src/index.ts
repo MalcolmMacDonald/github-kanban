@@ -4,5 +4,11 @@ export { KanbanColumn } from './KanbanColumn.js';
 export { IssueCard } from './IssueCard.js';
 export { CreateIssueForm } from './CreateIssueForm.js';
 export { WorkflowRunsPanel } from './WorkflowRunsPanel.js';
-export type { GithubKanbanProps, ColumnDefinition, Theme, Issue, WorkflowRun, PromoteWorkflowConfig, } from './types.js';
-//# sourceMappingURL=index.d.ts.map
+export type {
+    GithubKanbanProps,
+    ColumnDefinition,
+    Theme,
+    Issue,
+    WorkflowRun,
+    PromoteWorkflowConfig,
+} from './types.js';
